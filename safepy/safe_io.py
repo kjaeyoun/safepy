@@ -341,7 +341,7 @@ def read_attributes(attribute_file='', node_label_order=None, mask_duplicates=Fa
 
     if isinstance(attribute_file, str):
 
-        file_name = file_name.replace('~', expanduser('~'))
+        file_name = attribute_file.replace('~', expanduser('~'))
         [_, file_extension] = os.path.splitext(file_name)
 
         if file_extension == '.mat':
