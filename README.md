@@ -20,6 +20,11 @@ cd safepy/
 virtualenv -p python3 safepy_env
 source safepy_env/bin/activate
 pip install git+https://github.com/baryshnikova-lab/safepy.git
+
+or
+conda create -n safepy_env python=3.8
+conda activate safepy_env
+pip install git+https://github.com/baryshnikova-lab/safepy.git
 ```
 
 ### Usage  
